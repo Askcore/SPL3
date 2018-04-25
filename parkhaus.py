@@ -2,13 +2,19 @@
 # Angabe fuer das Beispiel: siehe Moodle
 
 print("Linienbus-Simulator")
-haltestellen = input("Wie viele Haltestellen soll es geben? ")
+h = input("Wie viele Haltestellen soll es geben? ")
+h = int(h)
+personen = 0
 
-einsteiger = input("Wie viele Personen wollen einsteigen? ")
+print("Der Bus fährt los.")
 
- 
-haltestellen = int(haltestellen)
-personen = int(einsteiger)
+for h in range (0,h+1):
+    print("Der Bus ist in Haltestelle",h,end="")
+
+
+
+
+
 
 
 
