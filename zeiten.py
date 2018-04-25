@@ -1,12 +1,13 @@
 # zeiten.py 
 
 def zeitInSekunden(h, m, s):
-    return int(s) + int(m*60) + int(h*3600)
+    return int(s) + int(m)*60 + int(h)*3600
 
 beginnZeit = input("Beginnzeit: ")
 endeZeit = input("Endzeit: ")
 
 # Zeit im Format HH:MM:SS
+
 beginn = beginnZeit.split(":")
 ende = endeZeit.split(":")
 
